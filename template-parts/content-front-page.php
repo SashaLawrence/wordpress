@@ -12,10 +12,10 @@
 	<header class="entry-header">
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 	</header><!-- .entry-header -->
-<p> Hello this is my extra bit of text on the homepage </p>
+
 
 	<?php twentysixteen_post_thumbnail(); ?>
-
+	
 	<div class="entry-content">
 		<?php
 		the_content();
@@ -32,7 +32,6 @@
 		);
 		?>
 	</div><!-- .entry-content -->
-
 	<?php
 		edit_post_link(
 			sprintf(
@@ -45,4 +44,4 @@
 		);
 		?>
 
-</article><!-- #post-<?php the_ID(); ?> -->
+</article><!-- #post-<?php the_ID(); ?> 

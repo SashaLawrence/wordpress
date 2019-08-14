@@ -4,3 +4,9 @@
 * Description: first child theme created
 * template: twentysixteen
 */
+
+/*targets home class and then the entry content class*/
+.home .entry-content  {
+	color: red;
+}
+

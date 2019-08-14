@@ -36,6 +36,11 @@ get_header(); ?>
 	<?php get_sidebar( 'content-bottom' ); ?>
 
 </div><!-- .content-area -->
+<?php 
+if ( get_field( 'phone_number' ) ){  ?>
+    <h2> <?php the_field( 'phone_number' )?> </h2>
+<?php } ?>
 
-<?php get_sidebar(); ?> --> -->
+
+<?php get_sidebar(); ?> 
 <?php get_footer(); ?>
